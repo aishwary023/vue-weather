@@ -12,6 +12,7 @@
         <div class="search-box">
           <input
             type="text"
+            id="tags"
             class="search-bar"
             placeholder="Search..."
             v-model="query"
@@ -134,8 +135,8 @@ main {
   padding: 25px;
   background-image: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.25),
-    rgba(0, 0, 0, 0.75)
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.25)
   );
   height: 100%;
 }
@@ -158,14 +159,14 @@ main {
   background: none;
 
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.25);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
 
   border-radius: 16px 0 16px 0;
   transition: 0.5s;
 }
 
 .search-box .search-bar:focus {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 0px 16px 0px 16px;
 }
 
