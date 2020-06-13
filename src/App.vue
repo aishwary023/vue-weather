@@ -104,6 +104,10 @@ export default {
 </script>
 
 <style>
+body {
+  background: rgb(230, 255, 255);
+}
+
 .container {
   width: 432px;
   height: 768px;
@@ -123,7 +127,7 @@ export default {
   background-image: url('./assets/cold-bg.jpg');
   background-size: cover;
   transition: 0.5s;
-  box-shadow: 5px 10px 18px #acacac;
+  box-shadow: 10px 10px 12px 0px rgb(143, 143, 143);
 }
 
 main {
