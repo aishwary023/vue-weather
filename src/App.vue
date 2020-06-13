@@ -112,7 +112,6 @@ export default {
 }
 @media only screen and (max-width: 600px) {
   .container {
-    border: 1px ridge;
     width: 100%;
     height: 100vh;
     margin-top: 0;
